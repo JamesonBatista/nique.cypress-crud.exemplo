@@ -1,0 +1,24 @@
+{
+  "name": "nique.cypress-crud.exemplo",
+  "version": "1.0.0",
+  "description": "Repositório para o Nique Allisson, apresentação do cypress-crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "handless": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesonBatista/nique.cypress-crud.exemplo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesonBatista/nique.cypress-crud.exemplo/issues"
+  },
+  "homepage": "https://github.com/JamesonBatista/nique.cypress-crud.exemplo#readme",
+  "dependencies": {
+    "cypress-crud": "^4.3.6"
+  }
+}

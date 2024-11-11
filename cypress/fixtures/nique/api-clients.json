@@ -1,0 +1,23 @@
+[
+  {
+    "t": "generate token api clients",
+    "post": "glitch/api-clients",
+    "body": { "clientName": "Test Client", "clientEmail": "faker.email" },
+    "save": "accessToken"
+  },
+  {
+    "t": "generate new order",
+    "post": "glitch/orders",
+    "headers": { "Authorization": "Bearer {accessToken}" },
+    "body": { "bookId": 1, "customerName": "faker.name" },
+    "save": "orderId",
+    "expect": { "path": "created", "eq": true }
+  },
+  {
+    "t": "get order",
+    "get": "glitch/orders",
+    "headers": { "Authorization": "Bearer {accessToken}" },
+	"cookies": {"cookieName": "mycookie"},
+	"length": 1
+  }
+]

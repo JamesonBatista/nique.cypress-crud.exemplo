@@ -1,0 +1,33 @@
+
+{
+        "name": "faker.name", // faker.nome
+        "email": "faker.email",
+        "enterprise": "faker.enterpriseName", // faker.empresaNome faker.entrerprise
+        "state": "faker.state", // faker.estado
+        "city": "faker.city", // faker.cidade
+        "country": "faker.country", //faker.pais
+        "street": "faker.street", // faker.endereco // faker.address // faker.rua
+        "phoneNumber": "faker.phoneNumber", // faker.numeroTelefone
+        "cep": "faker.cep",
+        "cpf": "faker.cpf",
+        "cnpj": "faker.cnpj",
+        "passwords": "faker.password", //faker.senha
+        "uuid": "faker.uuid",
+        "birthdate": "faker.birthdate", // faker.aniversario
+        "avatar": "faker.avatar",
+        "professional": "faker.professional", // faker.profissao
+        "product": "faker.product", // faker.produto
+        "imagem": "faker.image", // faker.imagem
+        "text": "faker.text", // faker.texto
+        "title": "faker.title", // faker.titulo
+        "actualDate": "faker.actualDate", // faker.dataAtual
+        "futureDate": "faker.futureDate", // faker.dataFutura
+        "fruta": "faker.fruta",
+        "fruit": "faker.fruit",
+        "object": "faker.object", // faker.objeto
+        "num": "faker.number(12)", // 123484218445
+        "number": "faker.number(7)", // 9713187
+
+
+      }
+
